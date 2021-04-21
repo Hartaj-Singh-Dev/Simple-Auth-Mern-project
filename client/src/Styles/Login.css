@@ -1,0 +1,8 @@
+div.Login-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+div.Login-image > figure> img{
+    height: 300px;
+    width: 300px;
+}

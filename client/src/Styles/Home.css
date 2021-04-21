@@ -1,0 +1,19 @@
+div.mainhaeder{
+    height: 91.2vh;
+    width: 100%;
+    
+    
+    background: #1e5799;
+background: -moz-linear-gradient(left, #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+background: -webkit-linear-gradient(left, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%);
+background: linear-gradient(to right, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+
+color: #ffff;
+}
+
+div.header{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}

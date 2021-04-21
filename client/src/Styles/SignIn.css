@@ -1,0 +1,50 @@
+div.signup-image > figure > img{
+    height: 100%;
+    width: 100%;
+}
+div.signup-image > figure{
+    height: 400px;
+    width: 500px;
+    padding: 30px 0;
+}
+
+div.signup-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* div.signup-form{
+    padding: 20px;
+} */
+div.form-group> label {
+    margin-right: 10px;
+}
+div.form-group> input[type=text]{
+    border: none;
+    border-bottom: 2px solid  black;
+    outline-width: 0;
+    padding: 4px;
+}
+div.form-group> input[type=text]:focus{
+    border-bottom: 4px solid  #009e00;
+}
+
+div.form-button > input{
+    background: #1e5799;
+    background: -moz-linear-gradient(left, #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+    background: -webkit-linear-gradient(left, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%);
+    background: linear-gradient(to right, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+   color: #ffff;
+   border: none;
+   padding: 10px 10px;
+   border-radius: 9px;
+   outline:none;
+   font-weight:500;
+}
+
+div.form-button > input:active{
+    box-shadow: -1px 3px 13px -1px rgba(116,116,116,0.75);
+-webkit-box-shadow: -1px 3px 13px -1px rgba(116,116,116,0.75);
+-moz-box-shadow: -1px 3px 13px -1px rgba(116,116,116,0.75);
+}

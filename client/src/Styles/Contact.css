@@ -1,0 +1,7 @@
+div.contact_info_item{
+    border-radius: 10px;
+    border: 0.01rem solid #a7a7a7;
+    padding: 3px 7px; 
+    flex-wrap: wrap;
+    margin-top: 14px;
+}

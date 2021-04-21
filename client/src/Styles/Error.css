@@ -1,0 +1,10 @@
+h1.err{
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 20rem;
+}
+div.not-found-404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
